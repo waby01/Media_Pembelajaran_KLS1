@@ -18,7 +18,7 @@ public class Menu : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene("LoadingScreen");
     }
 
     public void Credit()
@@ -41,4 +41,14 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Profil");
     }
 
+    public void Exit()
+    {
+        Application.Quit();
+        Debug.Log("metu coyy");
+    }
+
+    public void Back2()
+    {
+        SceneManager.LoadScene("Play");
+    }
 }

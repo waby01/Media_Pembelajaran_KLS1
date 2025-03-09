@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class Loading : MonoBehaviour
 {
     public Scrollbar loadingBar;
@@ -11,7 +12,6 @@ public class Loading : MonoBehaviour
     public string[] tips;
 
     private float progress = 0f;
-    private static string targetScene;
 
     void Start()
     {
@@ -20,11 +20,6 @@ public class Loading : MonoBehaviour
             tipText.text = tips[Random.Range(0, tips.Length)];
         }
         StartCoroutine(LoadProgress());
-    }
-
-    public static void SetTargetScene(string sceneName)
-    {
-        targetScene = "Kuis";
     }
 
     IEnumerator LoadProgress()
@@ -36,9 +31,6 @@ public class Loading : MonoBehaviour
             yield return null;
         }
 
-        if (!string.IsNullOrEmpty(targetScene))
-        {
-            SceneManager.LoadScene(targetScene);
-        }
+        SceneManager.LoadScene("Play");
     }
 }
