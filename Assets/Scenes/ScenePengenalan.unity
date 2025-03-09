@@ -5897,7 +5897,7 @@ GameObject:
   - component: {fileID: 1006725338}
   - component: {fileID: 1006725337}
   m_Layer: 5
-  m_Name: BtnBack (1)
+  m_Name: 'BtnBack '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5919,8 +5919,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -762, y: 409}
-  m_SizeDelta: {x: 89.4625, y: 44.5191}
+  m_AnchoredPosition: {x: -867, y: 494}
+  m_SizeDelta: {x: 87, y: 43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006725337
 MonoBehaviour:
@@ -6163,7 +6163,7 @@ GameObject:
   - component: {fileID: 1027675773}
   - component: {fileID: 1027675775}
   m_Layer: 5
-  m_Name: BtnBack
+  m_Name: BtnHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6185,7 +6185,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 782, y: 406.26}
+  m_AnchoredPosition: {x: 907, y: 490.5}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1027675773
